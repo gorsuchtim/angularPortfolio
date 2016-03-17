@@ -1,0 +1,386 @@
+
+/*------------------
+Home - Title Container
+--------------------*/
+#titleContainer {
+	margin: 0;
+	margin-top: 70px;
+	padding: 0;
+	width: 100%;
+	height: 394px;	
+	z-index: -1;
+	background-image: url('../images/stl.jpg');
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#titleContainerShade {	
+	width: 100%;	
+	height: 394px;	
+	background-color: rgba(0,0,0,0.85);
+	font-family: 'Roboto', sans-serif;	
+	color: white;	
+}
+#titleContainerShade h2 {	
+	margin-top: 85px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffc100;
+	text-shadow: 3px 3px 3px black;
+}
+#titleContainerShade h3 {	
+	margin-top: 50px;	
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+#titleContainerShade span {
+	margin-top: 60px;
+	font-size: 30px;	
+	color: #ffc100;	
+}
+
+/*----------------------
+Home - Work Gallery
+-------------------------*/
+#workGalleryContainer {			
+	width: 95%;	
+	font-family: 'Roboto', sans-serif;		
+	text-transform: lowercase;
+	background-color: white;
+}
+#workGalleryContainer h1 {
+	font-size: 50px;
+	margin-top: 55px;
+	margin-bottom: 55px		;
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;
+}
+.galleryTile {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;		
+	margin: 0;
+	padding: 0;
+}
+#galleryTile1 {
+	background-image: url('../images/photographer.jpg');
+}
+#galleryTile2 {
+	background-image: url('../images/cupcake.jpg');
+}
+#galleryTile3 {
+	background-image: url('../images/code2.jpg');
+}
+.galleryTile a {
+	text-decoration: none;
+	color: white;	
+}
+.galleryShade {
+	position: absolute;		
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.0);
+	font-family: 'Oswald', sans-serif;
+	color: transparent;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.galleryShade:hover {
+	background-color: rgba(0,0,0,0.9);
+	color: #ffc100;
+	text-shadow: 1px 1px 1px black;	
+}
+.galleryShade h2 {
+	margin-top: 100px;
+	font-size: 30px;		
+}
+#galleryButton {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: transparent;
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;	
+	border-color: #ffc100;
+	border-radius: 16px;
+	text-transform: lowercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#galleryButton:hover {
+	border-color: black;
+	background-color: #ffc100;	
+	color: black;
+	text-shadow: none;
+}
+
+/*-------------------
+Home - About Container
+-----------------------*/
+#aboutContainer {			
+	width: 100%;	
+	font-family: 'Roboto', sans-serif;		
+	text-transform: lowercase;
+	border-top: 4px double black;
+	border-bottom: 4px double black;
+	background: #595965;
+}
+#aboutContainer h1 {
+	font-size: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;		
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;	
+}
+#aboutContainer p {
+	font-size: 25px;		
+	color: white;
+	text-shadow: 1px 1px 1px black;	
+}
+#aboutContainer h5 {
+	font-size: 30px;
+	margin-top: 25px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 1px 1px 1px white;
+	font-weight: bold;	
+}
+#aboutButton {
+	margin: 30px 0;
+	background-color: #ffc100;
+	color: black;
+	border-color: #ffc100;
+	border-color: black;	
+	border-radius: 16px;
+	text-transform: lowercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#aboutButton:hover {	
+	background-color: transparent;	
+	color: #595965;
+	text-shadow: 1px 1px 0px black;	
+}
+
+/*-------------------
+Home - Footer
+--------------------*/
+#footerContainer {	
+	width: inherit;	
+	background: white;
+}
+#footerLogo {
+	margin-top: 50px;	
+}
+#footerLogo img {
+	height: 45px; 
+	width: 30px;
+}
+#homeSocialIcons {
+	margin-top: 25px;
+}
+#footerContainer h1 {
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;
+	font-family: 'Roboto', sans-serif;	
+	font-size: 35px;
+	text-transform: none;	
+}
+
+/*----------------------
+Social Icon Styles
+-----------------------*/
+.socialIcons {
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.socialIcons img {
+	height: 50px;
+	width: 50px;	
+	margin-right: 20px;	
+	padding: 5px;
+	border: 1px solid #ffc100;
+	border-radius: 50%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.socialIcons img:hover {	
+	border-radius: 16px;
+	border: 3px solid #ffc100;
+	transform: scale(1.2);	
+}
+
+/* --------------------
+Contact Container
+-----------------------*/
+#contactContainer {	
+	width: inherit;
+	margin-top: 70px;
+	padding: 0;	
+	z-index: -1;	
+	background-image: url('../images/stl.jpg');
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#contactContainerShade {	
+	width: inherit;	
+	background-color: rgba(0,0,0,0.85);
+	font-family: 'Roboto', sans-serif;	
+	color: white;	
+}
+#contactContainerShade h2 {			
+	font-size: 40px;
+	padding-top: 25px;
+	font-weight: bold;
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;
+}
+#contactContainerShade h4 {	
+	margin-top: 25px;		
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 150px;	
+}
+#contactContainerShade p {		
+	margin-top: 25px;	
+	margin-bottom: 0;
+	font-size: 18px;
+}
+#contactContainer a {
+	text-decoration: none;
+	color: #ffc100;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*------------------------
+About Page Container
+-------------------------*/
+#aboutPageContainer {	
+	width: inherit;
+	margin-top: 70px;
+	padding: 0;	
+	z-index: -1;		
+	background-image: url('../images/stl.jpg');
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#aboutPageContainerShade {	
+	width: inherit;	
+	background-color: rgba(0,0,0,0.85);
+	font-family: 'Roboto', sans-serif;	
+	color: white;	
+}
+#aboutPageContainerShade h2 {			
+	font-size: 40px;
+	padding-top: 25px;
+	font-weight: bold;
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;
+}
+#aboutPageContainerShade h4 {	
+	margin-top: 25px;		
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffc100;
+}
+#aboutPageContainerShade p {	
+	font-size: 17px;
+	padding-bottom: 145px;
+}
+#aboutPageContainer a {
+	text-decoration: none;
+	color: #ffc100;
+	font-weight: bold;
+}
+
+/*----------------------
+Full Gallery
+-------------------------*/
+.tileContainer {
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;		
+	text-transform: lowercase;	
+}
+.tileContainer a {
+	text-decoration: none;
+	color: black;
+}
+.tile {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 198px;	
+	margin: 0;
+	padding: 0;
+}
+.tileRow1 {
+	padding-top: 60px;	
+}
+.fullGalleryShade {	
+	height: 198px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255,255,255,0.0);
+	color: transparent;	
+	transition: 0.2s all ease-in;
+	-webkit-transition: 0.2s all ease-in;
+	-moz-transition: 0.2s all ease-in;
+	-ms-transition: 0.2s all ease-in;
+	-o-transition: 0.2s all ease-in;
+}
+.fullGalleryShade:hover {
+	background-color: rgba(0,0,0,0.85);
+	color: #ffc100;
+}
+.fullGalleryShade p {
+	padding-top: 60px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#row1-1 {
+	background-image: url('../images/photographer.jpg');	
+}
+#row1-2 {
+	background-image: url('../images/cupcake.jpg');	
+}
+#row1-3 {
+	background-image: url('../images/code2.jpg');
+}
+#row1-4 {
+	background-image: url('../images/cipher.jpg');		
+}
+#row2-1 {	
+	background-image: url('../images/caption.jpg');
+}
+#row2-2 {
+	background-image: url('../images/validate.png');				
+}
+#row2-3 {
+	background-image: url('../images/math2.jpg');		
+}
+#row2-4 {
+	background-image: url('../images/js2.png');		
+}
+
