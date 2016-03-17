@@ -189,28 +189,44 @@ Home - Footer
 	height: 45px; 
 	width: 30px;
 }
-#homeSocialIcons {
-	margin-top: 25px;
-}
 #footerContainer h1 {
 	color: #ffc100;
 	text-shadow: 1px 1px 0px black;
 	font-family: 'Roboto', sans-serif;	
 	font-size: 35px;
-	text-transform: none;	
+	text-transform: none;
+	padding-bottom: 40px;	
 }
 
-/*----------------------
-Social Icon Styles
+/* --------------------
+Contact Container
 -----------------------*/
-.socialIcons {
-	margin-top: 50px;
-	padding-bottom: 50px;
+#contactContainer {	
+	width: inherit;
+	margin-top: 70px;
+	padding: 0;	
+	z-index: -1;	
+	background-image: url('../images/stl.jpg');	
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#contactContainerShade {	
+	width: inherit;	
+	background-color: rgba(0,0,0,0.85);
+	font-family: 'Roboto', sans-serif;	
+	color: white;		
+}
+#contactContainerShade h2 {			
+	font-size: 40px;
+	padding-top: 25px;
+	font-weight: bold;
+	color: #ffc100;
+	text-shadow: 1px 1px 0px black;
 }
 .socialIcons img {
 	height: 50px;
 	width: 50px;	
-	margin-right: 20px;	
+	margin: 10px;
 	padding: 5px;
 	border: 1px solid #ffc100;
 	border-radius: 50%;
@@ -225,49 +241,23 @@ Social Icon Styles
 	border: 3px solid #ffc100;
 	transform: scale(1.2);	
 }
-
-/* --------------------
-Contact Container
------------------------*/
-#contactContainer {	
-	width: inherit;
-	margin-top: 70px;
-	padding: 0;	
-	z-index: -1;	
-	background-image: url('../images/stl.jpg');
-	background-repeat: no-repeat;
-	background-position: center;	
-}
-#contactContainerShade {	
-	width: inherit;	
-	background-color: rgba(0,0,0,0.85);
-	font-family: 'Roboto', sans-serif;	
-	color: white;	
-}
-#contactContainerShade h2 {			
-	font-size: 40px;
-	padding-top: 25px;
-	font-weight: bold;
-	color: #ffc100;
-	text-shadow: 1px 1px 0px black;
-}
 #contactContainerShade h4 {	
 	margin-top: 25px;		
 	font-size: 30px;
 	font-weight: bold;
-	color: white;
-	padding-bottom: 150px;	
+	color: #ffc100;	
+	padding-bottom: 68px;
 }
 #contactContainerShade p {		
 	margin-top: 25px;	
-	margin-bottom: 0;
-	font-size: 18px;
+	margin-bottom: 15px;
+	font-size: 18px;	
 }
 #contactContainer a {
 	text-decoration: none;
 	color: #ffc100;
-	font-weight: bold;
-	font-size: 20px;
+	font-weight: bold;	
+	font-size: 18px;
 }
 
 /*------------------------
