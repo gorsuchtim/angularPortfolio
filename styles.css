@@ -109,6 +109,11 @@ Tablet and Mobile Navigation Menu
 	font-weight: bold;		
 	text-shadow: 1px 1px 0px black;
 }
+#mobileNavContainer #angularSwitch a {
+	font-weight: bold;
+	color: rgba(175,255,61,1);
+	font-size: 15px;
+}
 
 /*-------------------------
 Desktop Navigation
@@ -162,5 +167,6 @@ Desktop Navigation
 #angularSwitch a {
 	font-weight: bold;
 	color: rgba(175,255,61,1);
+	font-size: 15px;
 }
 
