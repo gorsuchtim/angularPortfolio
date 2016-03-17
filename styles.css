@@ -1,0 +1,166 @@
+body {
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#mainContainer {	
+	margin: 0;
+	padding: 0;
+	width: inherit;
+}
+#image404 {
+	height: 300px;
+	width: 300px;
+	margin-top: 100px;
+}
+
+
+/*******************
+Hide mobile menu container
+***************************/
+@media screen and (min-width: 993px) {
+	.menuButton {
+		display: none;
+	}
+	#mobileMenu {
+		display: none;
+	}
+	#mobileNavContainer {
+		display: none;
+	}
+}
+
+/*-----------------------------------------------
+	Tablet and Mobile Navigation Menu and Button 
+-------------------------------------------------*/
+.menuButton {	
+	position: fixed;
+	height: 30px;
+	width: 40px;	
+	margin-top: 8px;
+	cursor: pointer;
+	z-index: 1;
+	right: 5%;
+	background-color: transparent;
+}
+.menuBar hr {		
+	margin: 15%;
+	max-width: 100%;
+	border-top: 2px solid rgb(100,100,100);
+}
+
+/*------------------------------------
+Tablet and Mobile Navigation Menu
+--------------------------------------*/
+#mobileMenu {
+	background-color: rgba(255,255,255,0.95);
+	height: 50px;
+	position: fixed;	
+	width: 100%;
+	z-index: 1;
+}
+#mobileLogo img {
+	height: 30px;
+	width: 20px;
+	margin-top: 9.5px;
+	float: left;
+}
+.mobileMenuClose {	
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	cursor: pointer;
+	position: absolute;
+	top: 1.3%;
+	right: 6%;
+	z-index: 1;
+}
+#mobileNavContainer {
+	background-color: rgba(0,0,0,0.95);
+	position: fixed;
+	font-family: 'Roboto', sans-serif;		
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+#mobileNavContainer ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 160px;	
+}
+#mobileNavContainer li {
+	display: block;
+	padding-top: 5%;	
+}
+#mobileNavContainer li a {
+	font-size: 2em;
+	color: #ffc100;	
+	text-decoration: none;
+	text-transform: lowercase;	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#mobileNavContainer li a:hover {
+	color: white;
+	font-weight: bold;		
+	text-shadow: 1px 1px 0px black;
+}
+
+/*-------------------------
+Desktop Navigation
+-------------------------*/
+#navigationContainer {
+	font-family: 'Roboto', sans-serif;	
+	position: fixed;	
+	width: 100%;
+	height: 60px;
+	z-index: 9999;
+	background-color: rgba(255,255,255,1);
+}
+#navigationContainer img {
+	float: left;
+	height: 30px;
+	width: 20px;
+	margin-top: 15px;
+}
+.angularSwitch {
+	float: left;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: rgba(175,255,61,1);
+}
+#mainNavigation ul {
+	display: inline;
+	float: right;
+	margin-top: 14px;
+}
+#mainNavigation li {
+	display: inline;
+	padding-right: 25px;
+	font-size: 20px;	
+}
+#mainNavigation a {
+	text-decoration: none;
+	color: black;
+	text-transform: lowercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#mainNavigation a:hover {
+	color: #ffc100;
+	font-weight: bold;	
+}
+#angularSwitch a {
+	font-weight: bold;
+	color: rgba(175,255,61,1);
+}
+
