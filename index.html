@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="PortfolioApp">
+	<head>
+		<title>Tim Gorsuch//AngularPortfolio</title>
+		
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">		
+		<meta name="description" content="A revision of my original portfolio page, rewritten with angularJS">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+		<meta name="author" content="Tim Gorsuch">
+
+		<!-- favicon icon -->
+		<link rel="shortcut icon" href="images/gorsuchLogo.ico" type="image/x-icon">
+		<link rel="icon" href="images/gorsuchLogo.ico" type="image/x-icon">
+
+		<!-- fonts! -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+			<!-- font awesome -->
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- css -->
+		<!-- Load online bootstrap css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/templateStyles.css">
+		<link rel="stylesheet" href="css/mediaQueries.css">
+		
+	</head>
+
+	<body ng-controller="SiteNav as nav">
+
+	<div class="container-fluid" id="mainContainer">
+
+		<div class="container" id="mobileMenu">
+
+			<div class="row">
+
+				<div class="col-xs-9" id="mobileLogo">
+					<a href="JavaScript:void(0)" ng-click="toHome()"><img src="images/gorsuchLogo.png" alt="" class="img-responsive"></a>										
+				</div>
+
+				<div class="col-xs-3 pull-right">
+					<div class="menuButton">
+						<span class="menuBar" id="menuBar1"> <hr> </span>
+						<span class="menuBar" id="menuBar2"> <hr> </span>
+						<span class="menuBar" id="menuBar3"> <hr> </span>
+					</div>
+				</div>
+
+			</div>
+		</div> <!-- end mobileMenu -->
+
+	<!-- Mobile Navigation Container -->
+
+		<div class="container" id="mobileNavContainer">
+			
+			<div class="row">
+				
+				<div class="mobileMenuClose"><span>X</span></div>
+
+				<div class="col-md-12">
+					<ul class="col-md-12">
+						<li class="mobileNavLink"><a href="JavaScript:void(0)" ng-click="toHome()">Home</a></li>	
+						<li class="mobileNavLink"><a href="JavaScript:void(0)" ng-click="toContact()">Contact</a></li>		
+						<li class="mobileNavLink"><a href="JavaScript:void(0)" ng-click="toAbout()">About</a></li>
+						<li class="mobileNavLink"><a href="JavaScript:void(0)" ng-click="toWork()">Work</a></li>
+						<li class="mobileNavLink" id="angularSwitch"><a href="../index.html">non-angular</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div> <!-- end mobileNavContainer -->
+
+	<!-- Desktop Navigation Container -->
+
+		<div class="container" id="navigationContainer">
+			
+			<div class="row">
+				<div class="col-md-6">
+					<a href="JavaScript:void(0)" ng-click="toHome()"><img class="img-responsive" src="images/gorsuchLogo.png" alt=""></a>								
+				</div>
+
+				<nav class="col-md-6" id="mainNavigation">
+					<ul>
+						<li id="homeNav"><a href="JavaScript:void(0)" ng-click="toHome()">Home</a></li>
+						<li id="contactNav"><a href="JavaScript:void(0)" ng-click="toContact()">Contact</a></li>
+						<li id="aboutNav"><a href="JavaScript:void(0)" ng-click="toAbout()">About</a></li>
+						<li id="workNav"><a href="JavaScript:void(0)" ng-click="toWork()">Work</a></li>
+						<li id="angularSwitch"><a href="../index.html">non-angular</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div> <!-- end navigationContainer -->
+
+
+	<div ng-view autoscroll="true"></div>
+
+
+
+	</div> <!-- end mainContainer -->
+	
+
+
+	<!-- Load online angular -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>	
+
+	<!-- Load angular-route.js -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+
+	<!-- Load online jquery first -->
+	<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>			
+	
+	<!-- Load online bootstrap js -->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+
+	<!-- Load local js files for site -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/mainJQ.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="js/directives.js"></script>
+	<script type="text/javascript" src="js/routes.js"></script>
+	
+
+
+	</body>
+</html>
