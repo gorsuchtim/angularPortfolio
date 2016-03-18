@@ -128,8 +128,8 @@ Desktop Navigation
 }
 #navigationContainer img {
 	float: left;
-	height: 30px;
-	width: 20px;
+	height: 33px;
+	width: 23px;
 	margin-top: 15px;
 }
 .angularSwitch {
@@ -166,7 +166,7 @@ Desktop Navigation
 }
 #angularSwitch a {
 	font-weight: bold;
-	color: rgba(175,255,61,1);
+	color: #ffc100;
 	font-size: 15px;
 }
 
